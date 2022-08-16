@@ -1,0 +1,729 @@
+:root {
+    background-color: #DEDEF1;
+}
+
+html {
+    background-color: #DEDEF1;
+}
+
+body {
+    background-color: #DEDEF1;
+}
+
+.push {
+    display: flex;
+    align-items: flex-end;
+}
+
+main {
+    background-color: #DEDEF1;
+}
+
+
+#title {
+    font-size: 75px;
+    font-family: 'Nanum Gothic Coding';
+    color: aliceblue;
+    position: relative;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+@media screen and (max-width: 560px) {
+    #title {
+        font-size: 40px;
+    }
+}
+
+.navlist {
+    display: flex;
+    justify-content: end;
+
+}
+
+li {
+    padding: 10px;
+    font-size: large;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+p {
+    font-family: monospace;
+    display: block;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-name: bounceP;
+    animation-name: bounceP;
+    animation-delay: 75ms;
+    
+
+}
+
+
+@keyframes bounceP {
+
+    0%,
+    20%,
+    50%,
+    80% {
+        transform: translateY(0);
+        
+    }
+
+    0% {
+        letter-spacing: -.8px;
+        
+    }
+    20%,
+    50%,
+    80%,
+    100% {
+        letter-spacing: 3px;
+        
+    }
+
+
+
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+
+
+li:hover {
+
+    cursor: pointer;
+
+}
+
+/* This is the hero img */
+
+
+
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #dedef1;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-name: bounceP;
+    animation-name: bounceP;
+    animation-delay: none;
+
+
+
+}
+
+
+
+.boxer {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.boxerP {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    max-width: 557px;
+
+}
+
+
+
+.aside {
+
+
+    border: 2px;
+    width: 214px;
+    height: 234px;
+    display: flex;
+    justify-content: center;
+    background-image: url('/src/images/selfie.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+    .wrapper {
+        padding-top: 45px;
+    }
+
+    .aside {
+        width: 214px;
+        height: 234px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .boxerP {
+        padding: 12px;
+    }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+    .wrapper {
+        padding-top: 45px;
+    }
+
+    .aside {
+        width: 214px;
+        height: 234px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .boxerP {
+        padding: 12px;
+    }
+
+    /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    .wrapper {
+        padding-top: 45px;
+    }
+
+    .aside {
+        width: 214px;
+        height: 234px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .boxerP {
+        padding: 12px;
+    }
+
+    /* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    .wrapper {
+        padding-top: 45px;
+    }
+
+    .aside {
+        width: 214px;
+        height: 234px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .boxerP {
+        padding: 12px;
+    }
+
+    /* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
+    .wrapper {
+        padding-top: 45px;
+    }
+
+    .aside {
+        width: 214px;
+        height: 234px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .boxerP {
+        padding: 12px;
+    }
+
+    /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+    .wrapper {
+        padding-top: 45px;
+    }
+
+    .aside {
+        width: 214px;
+        height: 234px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .boxerP {
+        padding: 12px;
+    }
+
+    /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+    /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+    .wrapper {
+        padding-top: 200px;
+    }
+
+    .aside {
+        width: 374px;
+        height: 411px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    /* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+    /* Styles */
+}
+
+
+
+
+/* MODAL BEGINS */
+
+.formP {
+    padding: 40px;
+}
+
+.divide {
+    display: flex;
+    justify-content: center;
+}
+
+.bigBlock {
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+
+
+.modal {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+.modal-ccontent {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 75%;
+    font-family: monospace;
+
+}
+
+
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* END OF MODAL */
+
+
+
+
+/* PROJECT GRID */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 10px;
+    background-color: #DEDEF1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.item1 {
+    background-image: url('/Images/mountain.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform 250ms;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: none;
+    animation-fill-mode: none;
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    animation-delay: none;
+
+}
+
+
+
+.item2 {
+    background-image: url('/Images/codeimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 250ms;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: none;
+    animation-fill-mode: none;
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    animation-delay: none;
+
+
+
+}
+
+
+
+.item3 {
+    background-image: url('/Images/landing-screenshot.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform 250ms;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: none;
+    animation-fill-mode: none;
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    animation-delay: 50ms;
+
+}
+
+
+.item4 {
+    background-image: url('/Images/weather\ \(3\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 250ms;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: none;
+    animation-fill-mode: none;
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    animation-delay: 100ms;
+}
+
+
+
+.item5 {
+    background-image: url('/Images/Pricepic.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-color: black;
+    transition: transform 250ms;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: none;
+    animation-fill-mode: none;
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    animation-delay: 59ms;
+}
+
+
+
+.item6 {
+    background-image: url('/Images/Sched\ \(2\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 250ms;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: none;
+    animation-fill-mode: none;
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    /* animation-delay: 825ms; */
+    animation-delay: 100ms;
+    
+}
+
+
+
+.item:hover {
+    transform: translateY(-10px);
+    border: 1px;
+    border-style: solid;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+}
+
+.snapper {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-name: bounceSnap;
+    animation-name: bounceSnap;
+    animation-delay: none;
+}
+
+
+
+@keyframes bounceSnap {
+
+    0% {
+        transform: translateY(0);
+        
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+@-webkit-keyframes bounceSnap {
+
+    0%,
+    20%,
+    50%,
+    80% {
+        -webkit-transform: translateY(0);
+        
+    }
+
+    40% {
+        -webkit-transform: translateY(-30px);
+    }
+
+    60% {
+        -webkit-transform: translateY(-15px);
+    }
+}
+
+@-webkit-keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80% {
+        -webkit-transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-20px);
+    }
+
+    60% {
+        -webkit-transform: translateY(-10px);
+    }
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-20px);
+    }
+
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+.positionitem1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.positionitem2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.positionitem3 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.positionitem4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+
+.positionitem5 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+
+.positionitem6 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+
+
+
+
+.label {
+    max-width: fit-content;
+    font-weight: 900;
+    font-size: 1.5em;
+    color: rgb(1, 1, 1);
+    position: absolute;
+
+
+}
+
+.labelG {
+    max-width: fit-content;
+    font-weight: 900;
+    font-size: 1.5em;
+    color: white;
+    position: absolute;
+
+
+}
+
+/* END GRID */
+
+/* TRANSITION */
+
+
+.transition-fade {
+    opacity: 1;
+    transition: 500ms;
+    transform: translateY(0);
+    transform-origin: bottom;
+    background-color: #DEDEF1;
+}
+
+html.is-animating .transition-fade {
+    opacity: 0;
+    transform: translateY(100%);
+    background-color: #DEDEF1;
+
+}
+
+html.is-leaving .transition-fade {
+    opacity: 0;
+    background-color: #DEDEF1;
+
+}
+
+
+html.is-changing {
+    background-color: #DEDEF1;
+}
+
+/* FOOTER */
+.foot {
+
+    /* position: absolute;
+    bottom: 0; */
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+
+/* TO DO
+FIX THE FOOTER
+FIX THE LOAD ORDER
+FIX THE REFRESH PROBLEM
+ADD SPANS TO STEINS DESIGNS (EACH LETTER) AND ADD HOVER EFFECT TO BUBBLE/BOUNCE THEM AND CHANGE THE COLOR OF EACH LETTER */
