@@ -1,19 +1,23 @@
 import React from 'react'
-import Home from './pages/Home';
-import Nav from './pages/Nav';
-import Works from './pages/Works'
 import Footer from './pages/Footer';
 import PortfolioContainer from './pages/Container';
-
-
-
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import Home from './pages/Home';
+import Works from './pages/Works';
+import Nav from './pages/Nav';
+import Resume from './images/Nathan Stein Resume.pdf'
 
 function App() {
   return (
-<div>
-<PortfolioContainer/>
-  <Footer/>
-  </div>
+<Router>
+  <Nav/>
+  <Routes>
+    <Route path='/about' element={<Home />} />
+    <Route path='/works' element={<Works />} />
+    <Route path='/resume' element={<Resume/>}/>
+    </Routes>
+    <Footer/>
+  </Router>
   );
 }
 
