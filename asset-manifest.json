@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/static/js/main.e37b1912.js",
+    "static/media/Pricepic.png": "/static/media/Pricepic.ab1896ca271d6fe890a1.png",
+    "static/media/landing-screenshot.png": "/static/media/landing-screenshot.8cd0e0563802a632f41b.png",
+    "static/media/selfie.jpeg": "/static/media/selfie.fdeb91b91d023b977b75.jpeg",
+    "static/media/codeimg.jpg": "/static/media/codeimg.60ac28bcb58ab78a1eb5.jpg",
+    "static/media/mountain.jpg": "/static/media/mountain.d13489d3bf97c36fec15.jpg",
+    "static/media/Nathan Stein Resume.pdf": "/static/media/Nathan Stein Resume.33ef5fd1a0ba0e377f42.pdf",
+    "static/media/weather.png": "/static/media/weather.1a3bbdc6c304deff131f.png",
+    "static/media/Sched.png": "/static/media/Sched.2c32107a96be28de1ece.png",
+    "index.html": "/index.html",
+    "main.e37b1912.js.map": "/static/js/main.e37b1912.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.e37b1912.js"
+  ]
+}
