@@ -9,7 +9,7 @@ import Resume from './images/Nathan Stein Resume.pdf'
 
 function App() {
   return (
-<Router>
+<Router basename={process.env.PUBLIC_URL}>
   <Nav/>
   <Routes>
     <Route path='/about' element={<Home />} />
