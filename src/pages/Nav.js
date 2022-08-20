@@ -31,7 +31,7 @@ export default function Nav({currentPage, handlePageChange}) {
           >Work</Link>
         </li>
         <li class="nav-item">
-          <div class="nav-link conB" data-toggle="modal" data-target="#exampleModal">Contact Me</div>
+          <Link class="nav-link conB" to='/contact' >Contact Me</Link>
         </li>
         <li class="nav-item">
           <a class="nav-link" href={PDF} target="_blank" rel="noopener noreferrer">Resume</a>
