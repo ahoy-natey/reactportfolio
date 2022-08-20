@@ -1,8 +1,11 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import PDF from '../images/Nathan Stein Resume.pdf'
+import Contact from './Contact'
 
-export default function Nav({currentPage, handlePageChange}) {
+
+
+export default function Nav({currentPage, handlePageChange, toggleModal}) {
   return (
     <React.Fragment>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark header">
@@ -31,7 +34,8 @@ export default function Nav({currentPage, handlePageChange}) {
           >Work</Link>
         </li>
         <li class="nav-item">
-          <div class="nav-link conB" data-toggle="modal" data-target="#exampleModal">Contact Me</div>
+          {/* <Link to={'/contact'} class="nav-link conB" data-toggle="modal" data-target="#exampleModal"
+          onClick={toggleModal}>Contact Me</Link> */}
         </li>
         <li class="nav-item">
           <a class="nav-link" href={PDF} target="_blank" rel="noopener noreferrer">Resume</a>

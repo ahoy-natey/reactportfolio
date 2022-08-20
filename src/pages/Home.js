@@ -7,7 +7,6 @@ export default function home() {
     <React.Fragment>
         
   
-
     
     <div class="wrapper">
       <div id="about">

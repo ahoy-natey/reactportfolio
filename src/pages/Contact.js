@@ -3,8 +3,7 @@ import React from 'react'
 export default function Contact() {
   return (
     <React.Fragment>
-
-{/* <div id="myModal" class="modal">
+          <div id="myModal" class="modal">
       <div class="modal-ccontent">
         <span class="close">&times;</span>
         <form class="formP">
@@ -13,7 +12,7 @@ export default function Contact() {
             <div class="form-group">
               <label for="exampleInputEmail1" class="form-label mt-4">Email address</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                placeholder="Enter email">
+                placeholder="Enter email"/>
               <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
   
@@ -27,10 +26,7 @@ export default function Contact() {
         </form>
       </div>
   
-    </div> */}
-
-
-
+    </div>
     </React.Fragment>
   )
 }
